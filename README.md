@@ -4,6 +4,8 @@ A VR mod for DRAGON BALL Sparking! ZERO: play in first person with motion contro
 
 This is an early release, made for offline training matches. I'm working through every character to make each one the best it can be, so there's more to come.
 
+**Watch it:** [Goku vs Vegeta in first person](https://www.youtube.com/watch?v=0jGkB9DC5XU) on [YouTube](https://www.youtube.com/@pillowforge).
+
 **Download:** get `SparkingZERO-Win64-Shipping.zip` from the [Releases](../../releases) page.
 
 > **Offline only.** Bandai Namco has announced bans for mods in online play, so the mod switches itself off outside offline modes. Don't take it online.
