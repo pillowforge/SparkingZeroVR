@@ -13,8 +13,8 @@ This is an early release, made for offline training matches. I'm working through
 ## Requirements
 
 - A PC VR headset. Tested on Quest 3 with Virtual Desktop.
-- An NVIDIA RTX GPU for DLSS.
 - UEVR nightly 01143.
+- Optional: an NVIDIA RTX GPU, for DLSS. It's under Picture quality in the mod's settings, which starts on Off. Tested on an RTX card only.
 
 ## Install
 
