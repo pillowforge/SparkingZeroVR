@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 540" width="1000" height="540" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <title>Touch controller buttons in Sparking! ZERO VR</title>
+  <rect x="0" y="0" width="1000" height="540" rx="18" fill="#ffffff"/>
+  <style>
+    .body { fill: #f1f3f5; stroke: #343a40; stroke-width: 3; }
+    .ring { fill: none; stroke: #343a40; stroke-width: 3; }
+    .btn { fill: #ffffff; stroke: #343a40; stroke-width: 2.5; }
+    .stick { fill: #495057; }
+    .part { fill: #ced4da; stroke: #343a40; stroke-width: 2.5; }
+    .key { font-size: 15px; font-weight: 700; fill: #212529; text-anchor: middle; dominant-baseline: central; }
+    .line { stroke: #868e96; stroke-width: 1.5; fill: none; }
+    .dot { fill: #868e96; }
+    .name { font-size: 17px; font-weight: 700; fill: #212529; }
+    .does { font-size: 15px; fill: #495057; }
+    .head { font-size: 20px; font-weight: 700; fill: #212529; text-anchor: middle; }
+    .note { font-size: 15px; fill: #495057; text-anchor: middle; }
+  </style>
+
+  <text class="head" x="300" y="38">Left controller</text>
+  <text class="head" x="700" y="38">Right controller</text>
+
+  <g transform="translate(-30,0)">
+  <!-- Left controller: labels on its left -->
+  <rect class="part" x="318" y="78" width="40" height="40" rx="12"/>
+  <rect class="body" x="300" y="250" width="70" height="200" rx="35"/>
+  <rect class="part" x="358" y="290" width="26" height="90" rx="12"/>
+  <circle class="ring" cx="330" cy="190" r="100"/>
+  <circle class="body" cx="330" cy="200" r="74"/>
+  <circle class="stick" cx="300" cy="182" r="22"/>
+  <circle class="btn" cx="356" cy="190" r="16"/><text class="key" x="356" y="190">Y</text>
+  <circle class="btn" cx="348" cy="232" r="16"/><text class="key" x="348" y="232">X</text>
+
+  <path class="line" d="M330 98 L200 98"/><circle class="dot" cx="330" cy="98" r="3"/>
+  <text class="name" x="190" y="92" text-anchor="end">Trigger</text><text class="does" x="190" y="112" text-anchor="end">Descend</text>
+  <path class="line" d="M300 182 L200 160"/><circle class="dot" cx="300" cy="182" r="3"/>
+  <text class="name" x="190" y="154" text-anchor="end">Stick</text><text class="does" x="190" y="174" text-anchor="end">Move</text>
+  <path class="line" d="M364 176 L380 150 L444 150"/>
+  <text class="name" x="450" y="144">Y</text><text class="does" x="450" y="164">Ki blast</text>
+  <path class="line" d="M332 232 L200 232"/>
+  <text class="name" x="190" y="226" text-anchor="end">X</text><text class="does" x="190" y="246" text-anchor="end">Super Perception</text>
+  <path class="line" d="M371 335 L200 335"/><circle class="dot" cx="371" cy="335" r="3"/>
+  <text class="name" x="190" y="329" text-anchor="end">Grip</text><text class="does" x="190" y="349" text-anchor="end">Ascend</text>
+
+  </g>
+  <g transform="translate(30,0)">
+  <!-- Right controller: labels on its right -->
+  <rect class="part" x="642" y="78" width="40" height="40" rx="12"/>
+  <rect class="body" x="630" y="250" width="70" height="200" rx="35"/>
+  <rect class="part" x="616" y="290" width="26" height="90" rx="12"/>
+  <circle class="ring" cx="670" cy="190" r="100"/>
+  <circle class="body" cx="670" cy="200" r="74"/>
+  <circle class="stick" cx="700" cy="182" r="22"/>
+  <circle class="btn" cx="644" cy="190" r="16"/><text class="key" x="644" y="190">B</text>
+  <circle class="btn" cx="652" cy="232" r="16"/><text class="key" x="652" y="232">A</text>
+
+  <path class="line" d="M670 98 L800 98"/><circle class="dot" cx="670" cy="98" r="3"/>
+  <text class="name" x="810" y="92">Trigger (hold)</text><text class="does" x="810" y="112">Charge ki</text>
+  <path class="line" d="M700 182 L800 160"/><circle class="dot" cx="700" cy="182" r="3"/>
+  <text class="name" x="810" y="154">Stick up</text><text class="does" x="810" y="174">Transform</text>
+  <path class="line" d="M636 176 L620 150 L556 150"/>
+  <text class="name" x="550" y="144" text-anchor="end">B</text><text class="does" x="550" y="164" text-anchor="end">Rush attack</text>
+  <path class="line" d="M668 232 L800 232"/>
+  <text class="name" x="810" y="226">A</text><text class="does" x="810" y="246">Step / short dash</text>
+  <path class="line" d="M629 335 L800 335"/><circle class="dot" cx="629" cy="335" r="3"/>
+  <text class="name" x="810" y="329">Grip</text><text class="does" x="810" y="349">Guard</text>
+  </g>
+
+  <text class="note" x="500" y="490">Both sticks pressed in together: open or close UEVR's menu.</text>
+  <text class="note" x="500" y="514">Right grip + B up close: throw. Hold the right trigger with a button: super moves.</text>
+</svg>
