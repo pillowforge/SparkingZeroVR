@@ -91,6 +91,7 @@ Open UEVR's menu (both thumbsticks in) and go to **LuaLoader → Script UI**. Ev
 **Turning**
 - **Turning:** **Snap** turns in steps (more comfortable for most people), **Smooth** turns continuously.
 - **Ultimates, Super moves, Transformations, Rush finishers:** **Off** keeps you in first person. **Game camera** switches to the game's own cinematic camera for those moments, so you can watch your character from outside.
+- **Air warp:** the air warping round you while you fly boosted. **Default** draws it as the game does; **Off** hides it.
 
 **Picture**
 - **Picture quality:** DLSS, for NVIDIA RTX graphics cards only. **Off** is the default. **DLAA** is the sharpest, **Performance** the fastest. Try **Quality** first.
@@ -101,6 +102,9 @@ Open UEVR's menu (both thumbsticks in) and go to **LuaLoader → Script UI**. Ev
 
 **Gestures**
 - Optional, and all off to begin with. See [Gestures](#gestures-new-and-optional) below.
+
+**Sound**
+- **Character voice:** on by default. Turn it off and your character stays silent, so you can shout the lines yourself; the opponent still talks. To mute every voice, turn the game's own **Voice Volume** down to 0 (the game's Options → Sound).
 
 **Developer:** for testing. Leave it alone.
 
@@ -162,7 +166,7 @@ To try one, open the mod's settings (UEVR's menu → **LuaLoader → Script UI**
 - **Power up:** snap both hands down to your sides and hold them there to charge ki.
 - **Ki super moves:** strike your character's pose for the move and hold it, like cupping your hands at your hip for a Kamehameha. Thrust your hands forward to fire. Only some characters have these so far: the Gestures menu lists which.
 
-With Punch and Ki blast both on, **Punch or ki blast** picks how the mod tells them apart: by **wrist angle** (palm out is a ki blast, fist is a punch) or with **fixed hands** (right punches, left throws ki blasts).
+With Punch and Ki blast both on, **Punch or ki blast (trial)** picks how the mod tells them apart: **Wrist angle** (palm out is a ki blast, fist is a punch; the first), **Wrist through the stroke** (keep your wrist tipped up all the way through a push), **Palm facing** (push with your palm toward the opponent) or **Wrist and palm together**, which read punches and pushes most reliably in testing.
 
 **Not sure how a gesture goes? Do it the way you'd naturally do it.**
 
@@ -199,7 +203,7 @@ CONTROLS (TOUCH CONTROLLERS)
 Left stick move. Right B rush attack. Left Y ki blast. Right A step or short dash. Left X Super Perception. Right grip guard. Left grip ascend. Left trigger descend. Right trigger (hold) charge ki, and with another button super moves. Right grip and right B up close: throw. Right stick up: transform (hold it for a ring of forms and point at one, or flick it to climb one form).
 
 THE MOD'S SETTINGS (UEVR MENU, LUALOADER, SCRIPT UI)
-Turning: Snap or Smooth. Ultimates, Super moves, Transformations, Rush finishers: Off for first person, or Game camera for the game's cinematic camera. Picture quality: DLSS for NVIDIA RTX cards only (try Quality). Measure my arms. Clear view in rush combos. Gestures: optional hand motions, all off to begin with, made standing. Developer: for testing, leave it alone.
+Turning: Snap or Smooth. Ultimates, Super moves, Transformations, Rush finishers: Off for first person, or Game camera for the game's cinematic camera. Air warp: Default as the game draws it, or Off to hide it. Picture quality: DLSS for NVIDIA RTX cards only (try Quality). Measure my arms. Clear view in rush combos. Gestures: optional hand motions, all off to begin with, made standing. Sound: Character voice off keeps your character silent so you can say the lines yourself, the opponent still talking; the game's own Voice Volume (Options, Sound) at 0 mutes every voice. Developer: for testing, leave it alone.
 
 FIXES
 Controllers do nothing: the UEVR menu is open; press both sticks in. View off to one side: recenter. Arms the wrong length: Measure my arms. Game starts flat: the headset must be connected before pressing start, and Easy Injector must be on OpenXR naming the right connection. Easy Injector warns the UEVR backend "might not be compatible": the mod is tested on UEVR nightly 01143; it may still work, and plain UEVR nightly 01143 is the fallback (get it from https://github.com/praydog/UEVR-nightly/releases, run UEVRInjector.exe, use Import Config with the mod's zip, answer Yes to the DLL warning, start the game, pick it in the list, choose OpenXR, press Inject). Anything else: ask on https://github.com/pillowforge/SparkingZeroVR/discussions with the newest log from %APPDATA%\UnrealVRMod\SparkingZERO-Win64-Shipping\data\logs.
